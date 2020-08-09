@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Booting");
 
-  setupOTA("TemplateSketch");
+  setupOTA("TemplateSketch"); // No dots(.), no spaces( ) in the name. Online device should response to ping by TemplateSketch.local name
 
   // your code
 
